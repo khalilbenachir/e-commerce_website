@@ -1,0 +1,61 @@
+.menu-item{
+    width: 30%;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 240px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+
+    &.large{
+        height: 360px;
+    }
+    
+
+
+    .iamgeBackground{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    background-position: center;
+
+        &:hover{
+            transform: scale(1.6);
+            transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    }
+
+    
+   
+
+
+
+    .content{
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90px;
+    padding: 0 25px;
+    background-color: white;
+    opacity: 0.7;
+
+    .title {
+        font-weight: bold;
+        margin-bottom: 6px;
+        font-size: 22px;
+        color: #4a4a4a;
+      }
+  
+      .subtitle {
+        font-weight: lighter;
+        font-size: 16px;
+      }
+}}
