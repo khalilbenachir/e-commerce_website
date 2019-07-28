@@ -1,0 +1,26 @@
+.signin{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+
+    .title{
+        margin: 10px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase
+
+        
+    }
+
+    .title__sous{
+        margin: 10px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase
+    }
+    .btn-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

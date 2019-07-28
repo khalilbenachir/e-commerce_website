@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=signin.css.map */
+.signin {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signin .title {
+  margin: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.signin .title__sous {
+  margin: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.signin .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=signin.css.map */
