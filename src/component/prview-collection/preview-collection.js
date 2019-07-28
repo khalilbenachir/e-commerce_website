@@ -14,7 +14,7 @@ const CollectionPreview = (props)=>(
                     .filter((item,index)=> index<4)
                     .map((item)=>
                         (
-                            <CollectionItem key={item.id} imageUrl={item.imageUrl} price={item.price} name={item.name} />
+                            <CollectionItem key={item.id} item={item} />
                         )
                 )
             }

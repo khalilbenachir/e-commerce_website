@@ -11,6 +11,18 @@
       -ms-flex-align: center;
           align-items: center;
   height: 350px;
+  position: relative;
+}
+
+.collection-item:hover .image {
+  opacity: 0.8;
+  background-color: black;
+}
+
+.collection-item:hover .custom-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .collection-item .image {
@@ -31,5 +43,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 18px;
+}
+
+.collection-item .custom-button {
+  width: 80%;
+  position: absolute;
+  top: 255px;
+  opacity: .7;
+  display: none;
 }
 /*# sourceMappingURL=collection-item.css.map */
